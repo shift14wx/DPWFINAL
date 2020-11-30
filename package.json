@@ -12,6 +12,7 @@
     "@nuxt/typescript-runtime": "^2.0.0",
     "boxicons": "^2.0.7",
     "core-js": "^3.6.5",
+    "faker": "^5.1.0",
     "nuxt": "^2.14.7",
     "stylus": "^0.54.8",
     "stylus-loader": "^4.3.0",

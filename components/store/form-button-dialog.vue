@@ -81,6 +81,8 @@
     </div>
   </template>
 <script>
+  import faker from "faker";
+
     export default {
       data:() => ({
         active: false,
@@ -90,6 +92,7 @@
         prod:{
           title:"",
           cat:"quesos",
+          image: faker.image.image(),
           price:0.0,
           description: ''
         } 
@@ -104,6 +107,7 @@
               title:"",
           cat:"quesos",
           price:0.0,
+          image: faker.image.image(),
           description: ''
             };
           }

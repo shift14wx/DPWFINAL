@@ -47,6 +47,7 @@ deleteFromCarrito(state,id){
         state.isAdded = val;
     },
     insertNewProduct(state, product){
+        product.id = state.products.length + 1;
         state.products.push(product);
     }
 
