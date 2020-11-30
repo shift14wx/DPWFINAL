@@ -45,6 +45,9 @@ deleteFromCarrito(state,id){
     },
     isAddedMun(state, val){
         state.isAdded = val;
+    },
+    insertNewProduct(state, product){
+        state.products.push(product);
     }
 
 };

@@ -22,6 +22,7 @@
         </vs-navbar-item>
 
         <template #right>
+          <form-dialog/>          
           <vs-button>
             <a href="https://github.com/shift14wx/DPWFINAL" target="_blank" style="text-decoration: none; color: white">
               <i class='bx bx-github'></i>
@@ -32,9 +33,13 @@
   </template>
 
  <script>
+   import formDialog from "~/components/store/form-button-dialog";
   export default {
     data:() => ({
       active: 'Inicio'
-    })
+    }),
+    components:{
+      formDialog
+    }
   }
   </script>

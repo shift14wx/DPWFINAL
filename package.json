@@ -13,6 +13,8 @@
     "boxicons": "^2.0.7",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.7",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^4.3.0",
     "vue-float-action-button": "^0.6.6",
     "vuesax": "^4.0.1-alpha.25"
   },

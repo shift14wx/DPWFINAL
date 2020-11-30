@@ -15,7 +15,7 @@
       </template>
       
      <template #interactions>
-        <vs-button danger icon :to="{path:'/cat?cat='+product.cat}">
+        <vs-button danger icon :to="'/cat/?cat='+product.cat">
           <i class='bx bx-category'></i>
         </vs-button>
         <vs-button success>
