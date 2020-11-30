@@ -3,7 +3,11 @@
     <navbar-component/>
     <h1>why</h1>
     <Nuxt />
-<vue-fab mainBtnColor="#3599DB" icon="shopping_cart" title="title">
+<vue-fab mainBtnColor="#3599DB" icon="menu" title="title">
+<fab-item :color="'#1BDD47'" @clickItem="irA('/')" :idx="0" title="Home" icon="home" />
+<fab-item :color="'#1BDD47'" @clickItem="irA('/cart')" :idx="3" title="Go to cart" icon="shopping_cart" />
+<fab-item  :color="'#1BDD47'" @clickItem="irA('/cat?cat=leche')" :idx="1" title="Go to milk category" icon="call_missed_outgoing" />
+<fab-item  :color="'#1BDD47'" @clickItem="irA('/cat?cat=quesos')" :idx="2" title="Go to queso category" icon="call_missed_outgoing" />
 </vue-fab>
   </div>
 </template>
@@ -77,6 +81,12 @@ export default {
   },
  components:{
   navbarComponent
+    },
+    methods:{
+      irA(goto){
+        console.log("dosnt go");
+        this.$router.push(goto)
+      }
     }
   
   }
