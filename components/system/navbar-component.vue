@@ -23,7 +23,7 @@
 
         <template #right>
           <vs-button>
-            <a href="https://github.com/shift14wx/DPWFINAL">
+            <a href="https://github.com/shift14wx/DPWFINAL" target="_blank" style="text-decoration: none; color: white">
               <i class='bx bx-github'></i>
               <span>Github</span></a>
           </vs-button>
