@@ -23,8 +23,9 @@
 
         <template #right>
           <vs-button>
+            <a href="https://github.com/shift14wx/DPWFINAL">
               <i class='bx bx-github'></i>
-              <span>Github</span>
+              <span>Github</span></a>
           </vs-button>
         </template>
       </vs-navbar> 
