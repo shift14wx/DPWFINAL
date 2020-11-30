@@ -1,0 +1,93 @@
+{
+    "products":[
+        {
+            "id":0,
+            "cat":"quesos",
+            "title": "Queso fresco",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/4/44/Queso_fresco.JPG",
+            "description":"El queso fresco o queso blanco es un tipo de queso blando",
+            "price": 0.25
+        },
+        {
+            "id":1,
+            "cat":"leche",
+            "title": "Leche Entera",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/4/44/Queso_fresco.JPG",
+            "description":"El queso fresco o queso blanco es un tipo de queso blando",
+            "price": 1.26
+        },
+        {
+            "id":2,
+            "cat":"quesos",
+            "title": "Queso duro blando",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/4/44/Queso_fresco.JPG",
+            "description":"El queso fresco o queso blanco es un tipo de queso blando",
+            "price": 1.25
+        },
+        {
+            "id":3,
+            "cat":"leche",
+            "title": "Leche fresca",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/4/44/Queso_fresco.JPG",
+            "description":"El queso fresco o queso blanco es un tipo de queso blando",
+            "price": 6.25
+        },
+        {
+            "id":4,
+            "cat":"leche",
+            "title": "leche blanca",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/4/44/Queso_fresco.JPG",
+            "description":"El queso fresco o queso blanco es un tipo de queso blando",
+            "price": 3.25
+        },
+        {
+            "id":5,
+            "cat":"quesos",
+            "title": "Queso duro",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/4/44/Queso_fresco.JPG",
+            "description":"El queso fresco o queso blanco es un tipo de queso blando",
+            "price": 5.25
+        },
+        {
+            "id":6,
+            "cat":"leche",
+            "title": "Leche pura",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/4/44/Queso_fresco.JPG",
+            "description":"El queso fresco o queso blanco es un tipo de queso blando",
+            "price": 3.15
+        },
+        {
+            "id":7,
+            "cat":"quesos",
+            "title": "Queso amarillo",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/4/44/Queso_fresco.JPG",
+            "description":"El queso fresco o queso blanco es un tipo de queso blando",
+            "price": 2.55
+        },
+        {
+            "id":8,
+            "cat":"quesos",
+            "title": "Queso blanco",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/4/44/Queso_fresco.JPG",
+            "description":"El queso fresco o queso blanco es un tipo de queso blando",
+            "price": 1.25
+        },
+        {
+            "id":9,
+            "cat":"quesos",
+            "title": "Queso azul",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/4/44/Queso_fresco.JPG",
+            "description":"El queso fresco o queso blanco es un tipo de queso blando",
+            "price": 0.99
+        },
+        {
+            "id":10,
+            "cat":"quesos",
+            "title": "Queso rojo",
+            "image":"https://upload.wikimedia.org/wikipedia/commons/4/44/Queso_fresco.JPG",
+            "description":"El queso fresco o queso blanco es un tipo de queso blando",
+            "price": 0.10
+        }
+
+    ]
+}
