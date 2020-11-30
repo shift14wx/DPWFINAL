@@ -1,13 +1,14 @@
 <template>
      <div class="grid" v-if="!rerender">
+         
      <vs-row>
          <vs-col>
              <h1 style="text-align:center; margin-top:50px" class="title-font">CART</h1>
          </vs-col>
-     </vs-row>
-      <vs-row v-for="( prod, i ) in getCart" :key="i" justify="center" style="text-align:center">
-      <vs-col w="4" style="text-align:center; margin-top:10px; margin-bottom: 10px ">
-           <vs-card type="3">
+     </vs-row >
+      <vs-row v-for="( prod, i ) in getCart" :key="i">
+      <vs-col align="center" >
+    <vs-card type="5" style="text-align:center; display:inline-block;">
     <template #title>
       <h3 v-text="prod.title"></h3>
     </template>

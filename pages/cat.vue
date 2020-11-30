@@ -12,7 +12,7 @@
      </vs-row>
       <vs-row v-for="( prod, i ) in getCat" :key="i" justify="center" style="text-align:center">
       <vs-col w="4" style="text-align:center; margin-top:10px; margin-bottom: 10px ">
-           <vs-card type="3">
+           <vs-card type="5">
     <template #title>
       <h3 v-text="prod.title"></h3>
     </template>
